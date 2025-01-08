@@ -6,7 +6,12 @@
     font-family: "Open Sans", serif;
 }
 
-
+.header {
+    background-color: rgb(255, 248, 243);
+    background-image: url("images/developer.png"), url("images/header_bg.png");
+    background-repeat: no-repeat;
+    background-position: top left, bottom right;
+}
 
 
 /* Navbar */
@@ -14,7 +19,9 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 38px 50px 0;
+    align-items: center;
+    margin: 0px 50px 150px 150px;
+    padding-top: 30px;
 }
 .text-primary {
     color: #FD6E0A;
@@ -56,7 +63,7 @@ nav ul {
 }
 .btn-primary {
     border-radius: 5px;
-    padding: 8px 5px 9px 6px;
+    padding: 15px 25px;
     background-color: rgb(253, 110, 10);
     color: rgb(255, 255, 255);
     font-family: Open Sans;
@@ -67,4 +74,60 @@ nav ul {
     text-align: left;
     border: none;
     outline: none;
+    cursor: pointer;
+}
+.btn-contact {
+    color: rgb(253, 110, 10);
+    font-family: Open Sans;
+    font-size: 20px;
+    padding: 13px 25px;
+    border: 2px solid rgb(253, 110, 10);
+    border-radius: 5px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 25px;
+}
+
+/* banner */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 35px 0 150px;
+}
+.banner-content {
+    width: 580px;
+}
+.banner-greetings {
+    color: rgb(71, 71, 71);
+    font-family: Open Sans;
+    font-size: 45px;
+    font-weight: 600;
+    line-height: 61px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.banner-title {
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 85px;
+    font-weight: 700;
+    line-height: 116px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.banner-discription {
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 30px;
+}
+.banner-profile-pic {
+    width: 500px;
 }
