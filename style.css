@@ -202,10 +202,30 @@ main {
 }
 .skill {
     background-color: rgb(255, 255, 255);
-    padding: 30px;
+    padding: 20px;
     border-radius: 10px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
 .skills {
     margin-bottom: 130px;
+}
+.skill-description {
+    color: rgb(117, 117, 117);
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 10px;
+}
+.skill-title {
+    color: rgb(24, 24, 24);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 27px;
+    letter-spacing: 0%;
+    text-align: left;
+    padding: 10px 10px 0px 10px;
 }
