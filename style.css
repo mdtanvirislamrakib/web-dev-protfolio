@@ -325,6 +325,8 @@ footer input[type="text"], footer input[type="email"] {
     display: block;
     margin-bottom: 20px;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 footer textarea {
